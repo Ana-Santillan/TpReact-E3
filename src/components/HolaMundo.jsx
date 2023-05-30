@@ -1,10 +1,14 @@
 import {useState } from "react";
 
 const HolaMundo = () => {
-    const [mensaje, setMensaje] = useState();
+    const [mensaje, setMensaje] = useState("");
 
     const clickMe = () =>{
-        setMensaje("(from changed state)")
+        if(mensaje!=""){
+            setMensaje("")
+        }else{
+            setMensaje("(from changed state)")
+        }
     }
 
     return (
