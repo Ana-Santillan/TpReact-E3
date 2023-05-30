@@ -12,7 +12,7 @@ const HolaMundo = () => {
     }
 
     return (
-        <section>
+        <section className="text-center my-5">
             <h1>Hello my friend {mensaje}</h1>
             <button className="btn btn-primary" onClick={clickMe}>Click me</button>
         </section>

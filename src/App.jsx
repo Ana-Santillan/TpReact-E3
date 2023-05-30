@@ -5,7 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 function App() {
 
   return (
-    <section>
+    <section className='container'>
       <HolaMundo></HolaMundo>
     </section>
   )
